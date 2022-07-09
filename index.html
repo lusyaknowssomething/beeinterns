@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beeinterns 2022</title>
+    <meta
+      name="description"
+      content="Вступительное задание на курс по JavaScript"
+    />
+    <meta name="author" content="Людмила Хатанзейская" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="body">
+    <div class="page">
+      <aside class="leftbar">
+        <div class="leftbar-section">
+          <div class="logo-section">
+            <img
+              src="./images/Beeline_2021.svg"
+              alt="Логотип проекта"
+              class="logo-section__logo"
+            />
+            <p class="logo-section__year">2022</p>
+            <h1 class="logo-section__title">Beeinterns</h1>
+          </div>
+          <nav class="leftbar-nav">
+            <ul class="leftbar-nav__items">
+              <li class="leftbar-nav__item">
+                <div class="leftbar-nav__item-container">
+                  <a class="leftbar-nav__link leftbar-nav__link_nested" >Программа</a>
+                  <button class="side-button leftbar-nav__side-button"><img class="leftbar-nav__side-icon leftbar-nav__side-icon_active" src="./images/icone-up.svg" alt="icone up"></button>
+                </div>
+                <ul class="leftbar-nav__items leftbar-nav__items_nested leftbar-nav__items_nested_hidden">
+                  <li class="leftbar-nav__nested-item"><a class="leftbar-nav__nested-link" href="">Элемент</a></li>
+                  <li class="leftbar-nav__nested-item"><a class="leftbar-nav__nested-link" href="">Элемент</a></li>
+                  <li class="leftbar-nav__nested-item"><a class="leftbar-nav__nested-link" href="">Элемент</a></li>
+                </ul>
+              </li>
+              <li class="leftbar-nav__item"><a class="leftbar-nav__link" href="">Менторы</a></li>
+              <li class="leftbar-nav__item">
+                <div class="leftbar-nav__item-container">
+                  <a class="leftbar-nav__link leftbar-nav__link_nested">Лекции</a>
+                  <button class="side-button leftbar-nav__side-button"><img class="leftbar-nav__side-icon leftbar-nav__side-icon_active" src="./images/icone-up.svg" alt="icone up"></button>
+                </div>
+                <ul class="leftbar-nav__items leftbar-nav__items_nested leftbar-nav__items_nested_hidden">
+                  <li class="leftbar-nav__nested-item leftbar-nav__nested-item_active"><img class="leftbar-nav__icon" src="./images/icon-sword.svg" alt="icon-sword"><a class="leftbar-nav__nested-link" href="">НTML/CSS</a></li>
+                  <li class="leftbar-nav__nested-item"><img class="leftbar-nav__icon" src="./images/icone-rocket.svg" alt="icon-sword"><a class="leftbar-nav__nested-link" href="">GIT</a></li>
+                  <li class="leftbar-nav__nested-item"><img class="leftbar-nav__icon" src="./images/icon-puzzle.svg" alt="icon-sword"><a class="leftbar-nav__nested-link" href="">JavaScript</a></li>
+                  <li class="leftbar-nav__nested-item"><img class="leftbar-nav__icon" src="./images/icon-chess.svg" alt="icon-sword"><a class="leftbar-nav__nested-link" href="">React</a></li>
+                  <li class="leftbar-nav__nested-item"><img class="leftbar-nav__icon" src="./images/icon-rubiks-cube.svg" alt="icon-sword"><a class="leftbar-nav__nested-link" href="">Angular</a></li>
+                  <li class="leftbar-nav__nested-item"><img class="leftbar-nav__icon" src="./images/icon-clew.svg" alt="icon-sword"><a class="leftbar-nav__nested-link" href="">Data</a></li>
+                </ul>
+              </li>
+              <li class="leftbar-nav__item"><a class="leftbar-nav__link" href="">Правила поступления</a></li>
+              <li class="leftbar-nav__item"><a class="leftbar-nav__link" href="">Новости</a></li>
+              <li class="leftbar-nav__item"><a class="leftbar-nav__link" href="">Обратная связь</a></li>
+            </ul>
+          </nav>
+          <div class="switcher">
+            <p class="switcher__text">Получать рассылку</p>
+            <input type="checkbox" id="switcher" value="yes" class="switcher__checkbox">
+            <label for="switcher" class="switcher__button"><div class="switcher__circle"></div></label>
+          </div>
+        </div>
+      </aside>
+      <header class="header page__header">
+        <nav class="header__nav">
+          <ul class="header__links">
+            <li><a class="header__link" href="#" class="header__link">FAQ</a></li>
+            <li><a class="header__link" href="#" class="header__link">Поддержка</a></li>
+            <li><a class="header__link" href="#" class="header__link">Настройки</a></li>
+          </ul>
+        </nav>
+        <section class="user">
+          <ul class="user__coins">
+            <li class="user__coin">15 готовых дз</li>
+            <li class="user__coin">18 лекций</li>
+            <li class="user__coin"><div class="user__energy-container"><img class="user__energy" src="./images/user-info__energy-icon.svg"></div><span class="user__span">1200</span> часов</li>
+          </ul>
+          <div class="user__info">
+            <img class="user__image" src="./images/user-photo.jpg" alt="фото профиля">
+            <div class="user__info-container">
+              <p class="user__name">Вася Пупкин</p>
+              <p class="user__status">Online</p>
+            </div>
+            <p class="user__level">Pro</p>
+          </div>
+        </section>
+      </header>
+
+      <main class="content">
+        <section class="weekly-quests">
+          <div class="weekly-quests__chapter">
+            <p class="weekly-quests__subtitle">Все лекции на нашем сайте</p>
+            <h2 class="weekly-quests__title">ALL LECTURES</h2>
+          </div>
+          <div class="weekly-quests__nav">
+            <div class="weekly-quests__btns-container" >
+              <button class="button weekly-quests__button weekly-quests__button_html">HTML</button>
+              <button class="button weekly-quests__button weekly-quests__button_css">CSS</button>
+              <button class="button weekly-quests__button weekly-quests__button_js">JavaScript</button>
+              <button class="button weekly-quests__button weekly-quests__button_all">Все лекции</button>
+            </div>
+            <div>
+              <button class="side-button side-button_left weekly-quests__side-button"><img src="./images/icone-left.svg" alt=""></button>
+              <button class="side-button side-button_right weekly-quests__side-button"><img src="./images/icone-right.svg" alt=""></button>
+            </div>
+          </div>
+          <div class="quests-container">
+            <div class="quests-container__inline all">
+            </div>
+          </div>
+        </section>
+
+        <section class="weekly-quests">
+          <div class="weekly-quests__chapter">
+            <p class="weekly-quests__subtitle">Продвинутый уровень</p>
+            <h2 class="weekly-quests__title">JAVASCRIPT/REACT</h2>
+          </div>
+          <div class="weekly-quests__nav">
+              <button class="button weekly-quests__button">Все лекции</button>
+              <div class="weekly-quests__btn-container">
+                <button class="side-button side-button_left weekly-quests__side-button"><img src="./images/icone-left.svg" alt=""></button>
+                <button class="side-button side-button_right weekly-quests__side-button"><img src="./images/icone-right.svg" alt=""></button>
+             </div>
+          </div>
+          <div class="quests-container">
+            <div class="quests-container__inline js">
+            </div>
+          </div>
+        </section>
+        <section class="weekly-quests">
+          <div class="weekly-quests__chapter">
+            <p class="weekly-quests__subtitle">Базовый уровень</p>
+            <h2 class="weekly-quests__title">HTML/CSS</h2>
+          </div>
+          <div class="weekly-quests__nav">
+              <button class="button weekly-quests__button">Все лекции</button>
+              <div class="weekly-quests__btn-container">
+                <button class="side-button weekly-quests__side-button side-button_left"><img src="./images/icone-left.svg" alt=""></button>
+                <button class="side-button weekly-quests__side-button side-button_right"><img src="./images/icone-right.svg" alt=""></button>
+             </div>
+          </div>
+          <div class="quests-container">
+            <div class="quests-container__inline">
+            </div>
+          </div>
+        </section>
+
+      </main>
+      <footer class="footer page__footer">
+      </footer>
+      <template class="element__template">
+        <article class="quest quest_template">
+          <img src="#" alt="" class="quest__image"/>
+          <p class="quest__note">Лекция</p>
+          <h3 class="quest__title"></h3>
+          <p class="quest__subtitle"></p>
+          <div class="quest__date-and-button">
+            <p class="quest__date"></p>
+            <button type="button" class="button quest__button">Смотреть</button>
+          </div>
+        </article>
+      </template>
+    </div>
+    <script src="./scripts/initials_quests.js"></script>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

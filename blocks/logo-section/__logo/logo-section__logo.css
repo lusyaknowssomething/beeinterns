@@ -1,0 +1,7 @@
+.logo-section__logo {
+  grid-area: logo;
+  justify-self: start;
+  align-self: flex-end;
+  width: 40.43px;
+  margin-left: 5px;
+}

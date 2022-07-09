@@ -1,0 +1,9 @@
+.quests-container {
+  grid-area: quests;
+  width: 1050px;
+  padding-bottom: 10px;
+  max-height: 300px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+

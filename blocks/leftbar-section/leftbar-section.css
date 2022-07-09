@@ -1,0 +1,8 @@
+.leftbar-section {
+  position: sticky;
+  top: 0;
+  display: grid;
+  flex-direction: column;
+  height: 100vh;
+  grid-template-rows: auto auto 1fr;
+}

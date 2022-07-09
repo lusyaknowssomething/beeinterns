@@ -1,0 +1,9 @@
+.page {
+  display: grid;
+  grid-template-areas:
+    "leftbar header"
+    "leftbar main"
+    "leftbar footer";
+  grid-template-columns: 280px 1fr;
+  grid-template-rows: 71px 1fr;
+}

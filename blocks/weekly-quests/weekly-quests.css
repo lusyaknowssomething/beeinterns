@@ -1,0 +1,11 @@
+.weekly-quests {
+  display: grid;
+  grid-template-areas:
+    "title nav"
+    "quests quests";
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  align-items: flex-end;
+}
+
+

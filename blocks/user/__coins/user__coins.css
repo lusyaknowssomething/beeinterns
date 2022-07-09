@@ -1,0 +1,14 @@
+.user__coins {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+@media (max-width: 426px) {
+  .user__coins {
+    display: none;
+  }
+}

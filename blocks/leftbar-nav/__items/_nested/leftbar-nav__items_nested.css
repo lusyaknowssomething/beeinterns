@@ -1,0 +1,11 @@
+@keyframes visible {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.leftbar-nav__items_nested {
+  margin-top: 18px;
+  animation: visible 2s;
+}
+
+

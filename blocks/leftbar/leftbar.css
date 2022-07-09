@@ -1,0 +1,9 @@
+.leftbar {
+  width: 280px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  grid-area: leftbar;
+  background-color: rgba(156, 165, 236, 0.04);
+  height: 100vh;
+}

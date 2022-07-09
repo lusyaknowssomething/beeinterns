@@ -1,0 +1,19 @@
+.header__links{
+  display: flex;
+  gap: 28px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__links::after {
+  content: '';
+  display:inline-block;
+  background: #D8D8D8;
+  opacity: 0.1;
+  width: 1px;
+  height: 24px;
+}
+
+
+

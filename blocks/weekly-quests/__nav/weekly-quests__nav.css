@@ -1,0 +1,7 @@
+.weekly-quests__nav {
+  grid-area: nav;
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

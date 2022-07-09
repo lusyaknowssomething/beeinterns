@@ -1,0 +1,11 @@
+.switcher__button {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 15px;
+  height: 22px;
+  width: 42px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.leftbar-nav__nested-link {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-left: 24px;
+}

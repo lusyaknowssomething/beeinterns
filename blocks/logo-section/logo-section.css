@@ -1,0 +1,19 @@
+.logo-section {
+  max-width: 140px;
+  margin: 0 0 7px 30px;
+  padding-top: 21px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "logo year"
+    "title title";
+  justify-items: flex-end;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 2;
+}
+
+
+
+

@@ -1,0 +1,7 @@
+.quests-container__inline {
+  min-width: 1500px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  position: relative;
+}

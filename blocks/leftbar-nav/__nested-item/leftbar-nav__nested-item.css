@@ -1,0 +1,18 @@
+.leftbar-nav__nested-item {
+  padding: 11px 0 11px;
+}
+
+.leftbar-nav__nested-item:hover::before {
+  content: '';
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFFFFF 80%);
+  opacity: 0.03;
+  position: absolute;
+  height: 40px;
+  width: 0;
+  margin: -11px 0 0 -30px;
+  transition: 300ms;
+}
+
+.leftbar-nav__nested-item:hover::before {
+  width: 100%;
+}

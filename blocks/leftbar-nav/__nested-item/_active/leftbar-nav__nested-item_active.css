@@ -1,0 +1,9 @@
+.leftbar-nav__nested-item_active:before {
+  content: '';
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFFFFF 93.97%);
+  opacity: 0.03;
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  margin: -11px 0 0 -30px;
+}

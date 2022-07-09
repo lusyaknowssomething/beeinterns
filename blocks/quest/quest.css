@@ -1,0 +1,10 @@
+.quest {
+  position: relative;
+  background: rgba(255, 255, 255, .04);
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 255px;
+  display: grid;
+}
+
+

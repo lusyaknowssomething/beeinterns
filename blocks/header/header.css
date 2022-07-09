@@ -1,0 +1,28 @@
+.header {
+  justify-self: center;
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  width: 1060px;
+  justify-content: space-between;
+  height: 71px;
+  padding: 0 54px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  background-color: #2B2C3A;
+  z-index: 1;
+}
+
+.header::after {
+  position: absolute;
+  top: 71px;
+  right: 0;
+  width: 100vw;
+  content: '';
+  display: block;
+  height: 1px;
+  background: #D8D8D8;
+  opacity: 0.1;
+  z-index: 2;
+}

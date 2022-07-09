@@ -1,0 +1,4 @@
+.leftbar-nav__side-icon_active {
+  transform: rotate(180deg);
+  transition: 1s;
+}

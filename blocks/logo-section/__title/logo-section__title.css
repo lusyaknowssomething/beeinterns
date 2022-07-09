@@ -1,0 +1,9 @@
+.logo-section__title {
+  grid-area: title;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  text-transform: uppercase;
+}

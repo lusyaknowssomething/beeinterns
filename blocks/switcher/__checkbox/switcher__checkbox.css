@@ -1,0 +1,9 @@
+.switcher__checkbox {
+  height: 22px;
+  width: 42px;
+  display: none;
+}
+
+.switcher__checkbox:checked+.switcher__button>.switcher__circle {
+  left: 2px;
+}

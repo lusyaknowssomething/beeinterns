@@ -1,0 +1,17 @@
+.header__link {
+  color: #FFF;
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 10px;
+  text-decoration: none;
+}
+.header__link:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.header__link:active {
+  /* box-shadow: 0px 0px 12px rgba(111, 110, 255, 0.5); */
+  transition: color .3s;
+  color: rgb(148, 148, 148);
+}

@@ -1,0 +1,82 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/leftbar/leftbar.css);
+
+@import url(../blocks/leftbar-section/leftbar-section.css);
+
+@import url(../blocks/logo-section/logo-section.css);
+@import url(../blocks/logo-section/__logo/logo-section__logo.css);
+@import url(../blocks/logo-section/__year/logo-section__year.css);
+@import url(../blocks/logo-section/__title/logo-section__title.css);
+
+@import url(../blocks/leftbar-nav/leftbar-nav.css);
+@import url(../blocks/leftbar-nav/__side-button/leftbar-nav__side-button.css);
+@import url(../blocks/leftbar-nav/__side-icon/leftbar-nav__side-icon.css);
+@import url(../blocks/leftbar-nav/__side-icon/_active/leftbar-nav__side-icon_active.css);
+@import url(../blocks/leftbar-nav/__items/leftbar-nav__items.css);
+@import url(../blocks/leftbar-nav/__items/_nested/leftbar-nav__items_nested.css);
+@import url(../blocks/leftbar-nav/__items/_nested/_hiden/leftbar-nav__items_nested_hidden.css);
+@import url(../blocks/leftbar-nav/__item/leftbar-nav__item.css);
+@import url(../blocks/leftbar-nav/__link/leftbar-nav__link.css);
+@import url(../blocks/leftbar-nav/__nested-item/leftbar-nav__nested-item.css);
+@import url(../blocks/leftbar-nav/__nested-item/_active/leftbar-nav__nested-item_active.css);
+@import url(../blocks/leftbar-nav/__icon/leftbar-nav__icon.css);
+@import url(../blocks/leftbar-nav/__nested-link/leftbar-nav__nested-link.css);
+@import url(../blocks/leftbar-nav/__item-container/leftbar-nav__item-container.css);
+
+@import url(../blocks/switcher/switcher.css);
+@import url(../blocks/switcher/__button/switcher__button.css);
+@import url(../blocks/switcher/__text/switcher__text.css);
+@import url(../blocks/switcher/__circle/switcher__circle.css);
+@import url(../blocks/switcher/__checkbox/switcher__checkbox.css);
+
+@import url(../blocks/side-button/side-button.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+
+@import url(../blocks/user/user.css);
+@import url(../blocks/user/__coins/user__coins.css);
+@import url(../blocks/user/__coin/user__coin.css);
+@import url(../blocks/user/__energy-container/user__energy-container.css);
+@import url(../blocks/user/__energy/user__energy.css);
+@import url(../blocks/user/__span/user__span.css);
+@import url(../blocks/user/__image/user__image.css);
+@import url(../blocks/user/__info/user__info.css);
+@import url(../blocks/user/__name/user__name.css);
+@import url(../blocks/user/__level/user__level.css);
+@import url(../blocks/user/__status/user__status.css);
+@import url(../blocks/user/__info-container/user__info-container.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/weekly-quests/weekly-quests.css);
+@import url(../blocks/weekly-quests/__chapter/weekly-quests__chapter.css);
+@import url(../blocks/weekly-quests/__nav/weekly-quests__nav.css);
+@import url(../blocks/weekly-quests/__title/weekly-quests__title.css);
+@import url(../blocks/weekly-quests/__subtitle/weekly-quests__subtitle.css);
+@import url(../blocks/weekly-quests/__button/weekly-quests__button.css);
+@import url(../blocks/weekly-quests/__btns-container/weekly-quests__btns-container.css);
+@import url(../blocks/weekly-quests/__side-button/weekly-quests__side-button.css);
+
+@import url(../blocks/quests-container/quests-container.css);
+@import url(../blocks/quests-container/__inline/quests-container__inline.css);
+
+@import url(../blocks/quest/quest.css);
+@import url(../blocks/quest/__title/quest__title.css);
+@import url(../blocks/quest/__subtitle/quest__subtitle.css);
+@import url(../blocks/quest/__image/quest__image.css);
+@import url(../blocks/quest/__note/quest__note.css);
+@import url(../blocks/quest/__date-and-button/quest__date-and-button.css);
+@import url(../blocks/quest/__date/quest__date.css);
+@import url(../blocks/quest/__button/quest__button.css);
+
+@import url(../blocks/footer/footer.css);

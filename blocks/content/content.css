@@ -1,0 +1,6 @@
+.content {
+  grid-area: main;
+  max-width: 1060px;
+  padding: 0 54px;
+  margin: 0 auto;
+}

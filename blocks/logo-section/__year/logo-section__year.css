@@ -1,0 +1,10 @@
+.logo-section__year {
+  grid-area: year;
+  margin: 0 0 -5px;
+  padding: 0;
+  justify-self: end;
+  align-self: flex-end;
+  font-size: 10.7px;
+  line-height: 16px;
+  font-weight: 500;
+}

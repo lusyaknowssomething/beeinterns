@@ -1,0 +1,11 @@
+.switcher {
+  display: flex;
+  padding: 30px 30px 30px;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 22px;
+  align-self: flex-end;
+}
+
+
+

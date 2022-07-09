@@ -1,0 +1,24 @@
+.leftbar-nav__link {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: block;
+  cursor: pointer;
+}
+
+.leftbar-nav__link:hover {
+  color: rgb(177, 177, 177);
+  transition: color .4s;
+}
+
+.leftbar-nav__link:active {
+  transition: transform .2s;
+  transform: scale(0.97, 0.97);
+}
+
+
+

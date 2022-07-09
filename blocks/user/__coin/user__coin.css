@@ -1,0 +1,10 @@
+.user__coin {
+  background: rgba(255, 255, 255, .06);
+  border-radius: 5px;
+  padding: 7px 9px 7px;
+  box-sizing: border-box;
+  font-size: 13px;
+  line-height: 10px;
+  display: flex;
+  position: relative;
+}

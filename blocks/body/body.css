@@ -1,0 +1,9 @@
+.body {
+  background-color: #2B2C3A;
+  color: #FFFFFF;
+  margin: 0 auto;
+  min-width: 320px;
+  font-family: 'Jost', Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
